@@ -45,6 +45,20 @@
             font-weight: bold;
             margin-top: 10px;
         }
+        .link-button {
+            margin-top: 20px;
+            background-color: #007BFF;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .link-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +74,9 @@
     </form>
 
     <div id="successMessage" class="success-message" style="display: none;">送信が完了しました！</div>
+
+    <!-- 依頼フォームに行くボタン -->
+    <a href="https://osushisushhi.github.io/webtest/" class="link-button">依頼フォームに行く</a>
 
     <script>
         function submitForm() {
